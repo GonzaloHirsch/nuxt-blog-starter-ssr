@@ -1,6 +1,14 @@
-# Nuxt 3 Blog Starter
+# Nuxt 3 Blog Starter (with SSR)
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+---
+
+- [Setup](#setup)
+- [Development Server](#development-server)
+- [Generation](#generation)
+
+---
 
 ## Setup
 
