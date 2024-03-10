@@ -9,11 +9,12 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.5.2",
-    "rehype-external-links": "^3.0.0",
     "@nuxtjs/tailwindcss": "^6.5.0",
-    "nuxt": "^3.2.3"
+    "nuxt": "^3.2.3",
+    "rehype-external-links": "^3.0.0"
   },
   "dependencies": {
-    "@vueuse/core": "^9.13.0"
+    "@vueuse/core": "^9.13.0",
+    "axios": "^1.6.7"
   }
 }
