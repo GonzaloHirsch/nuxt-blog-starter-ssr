@@ -4,18 +4,19 @@ export default defineNuxtConfig({
   ssr: true,
   experimental: {
     payloadExtraction: false,
+    renderJsonPayloads: true
   },
   router: {
     options: {
-      strict: false,
-    },
+      strict: false
+    }
   },
   sourcemap: false,
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {
       theme: 'github-dark',
-      preload: ['java', 'javascript'],
+      preload: ['java', 'javascript']
     },
     markdown: {
       // https://github.com/rehypejs/rehype-external-links
@@ -24,10 +25,10 @@ export default defineNuxtConfig({
           'rehype-external-links',
           {
             target: '_blank',
-            rel: 'noopener noreferer',
-          },
-        ],
-      ],
-    },
-  },
+            rel: 'noopener noreferer'
+          }
+        ]
+      ]
+    }
+  }
 });

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center justify-center text-center text-gray-900"
+    class="flex flex-col items-center justify-center text-center text-gray-900 max-w-screen-sm md:max-w-screen-sm xl:max-w-screen-lg mx-auto"
     style="height: 100vh"
   >
     <h1 class="mb-2">Welcome to the blog starter!</h1>
@@ -21,8 +21,8 @@
       To prove that this is running on a serverless instance, across time, the
       ID of this instance or revision might change.
       <ul>
-        <li><strong>Revision</strong>: <em>{{ revision }}</em></li>
-        <li><strong>Instance ID</strong>: <em>{{ data || error.message }}</em></li>
+        <li><strong>Revision</strong>: <em class="break-all">{{ revision }}</em></li>
+        <li><strong>Instance ID</strong>: <em class="break-all">{{ instanceId }}</em></li>
       </ul>
     </p>
     <a href="/blog/">Read the blog!</a>
@@ -30,13 +30,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
-const { data, error } = await useFetch('http://metadata.google.internal/computeMetadata/v1/instance/id', {
-    headers: {
-        "Metadata-Flavor": "Google"
-    }
-});
-
-const revision = ref(process.env.K_REVISION || "Not Found (env not available)");
+const { data: revision } = await useFetch('/api/revision')
+const { data: instanceId } = await useFetch('/api/instance')
 </script>

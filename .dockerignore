@@ -1,7 +1,9 @@
 # .dockerignore
 /.nuxt
 /.output
+/.github
 /node_modules
+/terraform
 
 .gitignore
 README.md

@@ -23,7 +23,7 @@
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "5.0.0",
     "markdown-toc": "1.2.0",
-    "nuxt": "^3.10.3",
+    "nuxt": "3.10.3",
     "prettier": "3.0.0",
     "rehype-external-links": "3.0.0",
     "semantic-release": "21.0.7"
