@@ -1,0 +1,4 @@
+region             = "AWS REGION"
+gcp_region         = "GCP REGION"
+gcp_project_id     = "GCP PROJECT ID"
+aws_hosted_zone_id = "AWS HOSTED ZONE ID"

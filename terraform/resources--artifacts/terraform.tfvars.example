@@ -1,0 +1,2 @@
+gcp_project_id = "GCP PROJECT ID"
+gcp_region     = "GCP REGION"
