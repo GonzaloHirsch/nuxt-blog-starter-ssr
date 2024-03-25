@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.0...v1.0.1) (2024-03-25)
+
+
+### Bug Fixes
+
+* missing region ([564e7c7](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/commit/564e7c753bc561e2159311b1dc38128198837dbe))
+
 # 1.0.0 (2024-03-25)
 
 
