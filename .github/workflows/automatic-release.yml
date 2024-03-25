@@ -109,4 +109,4 @@ jobs:
 
       - name: 'Deploy new revision'
         run: |
-          gcloud run deploy ${{ secrets.RUN_SERVICE }} --image ${{ secrets.IMAGE_URI }}:${{needs.release.outputs.NEXT_RELEASE_VERSION}}
+          gcloud run deploy ${{ secrets.RUN_SERVICE }} --image ${{ secrets.IMAGE_URI }}:${{needs.release.outputs.NEXT_RELEASE_VERSION}} --region ${{ secrets.RUN_REGION }}
