@@ -12,6 +12,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
   - [Artifacts](#artifacts)
   - [Build out Docker Image](#build-out-docker-image)
   - [Server](#server)
+  - [Workload Identity Federation](#workload-identity-federation)
 
 ---
 
@@ -111,6 +112,7 @@ This part is how to build and push the Docker image into the registry (more info
 ```bash
 SSR_IMAGE="ssr-site"
 export IMAGE_URI="$REGISTRY_LOCATION-docker.pkg.dev/$PROJECT_ID/$REGISTRY_NAME/$SSR_IMAGE"
+export REGISTRY_URI="$REGISTRY_LOCATION-docker.pkg.dev"
 gcloud auth configure-docker $REGISTRY_LOCATION-docker.pkg.dev
 (cd .. && docker build --platform linux/amd64 -t $IMAGE_URI . && docker push $IMAGE_URI)
 ```
@@ -127,6 +129,19 @@ This stack creates the artifact registry necessary for the Cloud Run instances t
 terraform init -backend-config="bucket=$BACKEND_ID" -backend-config="region=$BACKEND_REGION"
 terraform plan -var="image=$IMAGE_URI"
 terraform apply -var="image=$IMAGE_URI"
+```
+
+### Workload Identity Federation
+
+_Run this inside `terraform/resources--wif`_
+
+This stack creates the WIF resources necessary for GitHub Actions to authenticate with the SA:
+
+```bash
+terraform init -backend-config="bucket=$BACKEND_ID" -backend-config="region=$BACKEND_REGION"
+terraform plan
+terraform apply
+
 ```
 
 https://nuxt.com/docs/api/advanced/hooks
