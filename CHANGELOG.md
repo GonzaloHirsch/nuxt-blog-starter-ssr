@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.1...v1.0.2) (2024-03-25)
+
+
+### Bug Fixes
+
+* missing permissions over the SA ([fd96329](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/commit/fd9632946c70fc07bb1edf2a7894ba1f6a38f95f))
+
 ## [1.0.1](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.0...v1.0.1) (2024-03-25)
 
 
