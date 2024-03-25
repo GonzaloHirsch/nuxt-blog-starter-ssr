@@ -1,3 +1,7 @@
+data "google_compute_default_service_account" "default" {
+  project = var.gcp_project_id
+}
+
 # The service account that we are meant to impersonate.
 resource "google_service_account" "default" {
   account_id   = "sa-gh-${local.safe_site}"
@@ -11,6 +15,12 @@ resource "google_project_iam_member" "default" {
   for_each = toset(local.roles)
   role     = each.key
   member   = "serviceAccount:${google_service_account.default.email}"
+}
+
+resource "google_service_account_iam_member" "compute_access" {
+  member             = "serviceAccount:${google_service_account.default.email}"
+  service_account_id = data.google_compute_default_service_account.default.name
+  role               = "roles/iam.serviceAccountUser"
 }
 
 # Pool for identity specific to the site.
