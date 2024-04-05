@@ -184,7 +184,7 @@ const jsonScripts = [
       '@type': 'BlogPosting',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://example.com/'
+        '@id': baseUrl
       },
       url: canonicalPath,
       image: image,
