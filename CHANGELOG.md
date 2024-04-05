@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.6...v1.0.7) (2024-04-05)
+
+
+### Bug Fixes
+
+* remove debug data print ([ab3d5cf](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/commit/ab3d5cff8f7e7ae68287a2ab66073c6158f7245c))
+
 ## [1.0.6](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.5...v1.0.6) (2024-04-05)
 
 
