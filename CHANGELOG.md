@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.4...v1.0.5) (2024-04-05)
+
+
+### Bug Fixes
+
+* pagination links ([840414d](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/commit/840414d78ec51cc2d1c5889cd20837dc6c033750))
+
 ## [1.0.4](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.3...v1.0.4) (2024-04-05)
 
 

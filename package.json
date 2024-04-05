@@ -1,6 +1,6 @@
 {
   "name": "nuxt-blog-starter-ssr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This repository provides a starter configuration for creating an SSR blog using Nuxt 3, a progressive JavaScript framework. It includes basic setup for pages, layouts, and components, as well as pre-configured modules for SEO and content management. Perfect for starting a new blog project with Nuxt 3.",
   "private": true,
   "scripts": {
