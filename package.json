@@ -30,7 +30,9 @@
     "nuxt": "3.10.3",
     "prettier": "3.0.0",
     "rehype-external-links": "3.0.0",
-    "semantic-release": "21.0.7"
+    "semantic-release": "21.0.7",
+    "sitemap": "7.1.1",
+    "buffer-replace": "1.0.0"
   },
   "release": {
     "branches": [

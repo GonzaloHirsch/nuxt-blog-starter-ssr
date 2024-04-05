@@ -2,6 +2,11 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
   css: ['/assets/css/main.css'],
   ssr: true,
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  },
   experimental: {
     payloadExtraction: false,
     renderJsonPayloads: true

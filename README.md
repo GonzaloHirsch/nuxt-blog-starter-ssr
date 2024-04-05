@@ -143,6 +143,3 @@ terraform plan
 terraform apply
 
 ```
-
-https://nuxt.com/docs/api/advanced/hooks
-https://nuxt.com/docs/api/utils/dollarfetch
