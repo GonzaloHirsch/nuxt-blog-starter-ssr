@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.3...v1.0.4) (2024-04-05)
+
+
+### Bug Fixes
+
+* incorrect canonical domain ([249656b](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/commit/249656be80dc8d0eb6fa719b1b9fe166b0354263))
+
 ## [1.0.3](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.2...v1.0.3) (2024-04-05)
 
 
