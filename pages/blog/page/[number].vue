@@ -17,18 +17,20 @@
           <BlogList :data="data" />
           <ContentQuery path="/blog" :only="['headline']">
             <template v-slot="{ data }">
+              {{ data }}
               <BlogPagination
-                v-if="getPageLimit(data.length) > 1"
+                v-if="getPageLimit(data?.length) > 1"
                 class="mt-8"
                 :currentPage="getPageNumber()"
-                :totalPages="getPageLimit(data.length)"
-                :nextPage="getPageNumber() < getPageLimit(data.length)"
+                :totalPages="getPageLimit(data?.length)"
+                :nextPage="getPageNumber() < getPageLimit(data?.length)"
                 baseUrl="/blog/"
                 pageUrl="/blog/page/"
               />
             </template>
             <template #not-found>
               <!-- Nothing -->
+              Not found
             </template>
           </ContentQuery>
         </Section>
