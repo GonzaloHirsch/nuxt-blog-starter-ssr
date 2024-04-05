@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.7...v1.0.8) (2024-04-05)
+
+
+### Bug Fixes
+
+* missing tags & metas ([d04df0e](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/commit/d04df0ea01ea87903f3d13d61651c9780a87cf7a))
+
 ## [1.0.7](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.6...v1.0.7) (2024-04-05)
 
 
