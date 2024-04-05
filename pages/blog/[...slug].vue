@@ -243,6 +243,7 @@ useHead({
     },
     // Twitter
     { hid: 'twitter:card', name: 'twitter:card', content: 'Summary' },
+    { hid: 'twitter:site', name: 'twitter:site', content: '@GonzaloHirsch' },
     {
       hid: 'twitter:title',
       name: 'twitter:title',
