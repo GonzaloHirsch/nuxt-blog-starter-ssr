@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.5...v1.0.6) (2024-04-05)
+
+
+### Bug Fixes
+
+* blog meta missing for pages ([6a52a5a](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/commit/6a52a5a1375a49b43ab9792839e5c33a7719415b))
+
 ## [1.0.5](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.4...v1.0.5) (2024-04-05)
 
 
