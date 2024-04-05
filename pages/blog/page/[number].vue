@@ -17,7 +17,6 @@
           <BlogList :data="data" />
           <ContentQuery path="/blog" :only="['headline']">
             <template v-slot="{ data }">
-              {{ data }}
               <BlogPagination
                 v-if="getPageLimit(data?.length) > 1"
                 class="mt-8"
@@ -30,7 +29,6 @@
             </template>
             <template #not-found>
               <!-- Nothing -->
-              Not found
             </template>
           </ContentQuery>
         </Section>
