@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.2...v1.0.3) (2024-04-05)
+
+
+### Bug Fixes
+
+* missing robots.txt and sitemap ([33bb43a](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/commit/33bb43a95516ad27b3d38484737b339a8aa27b15))
+
 ## [1.0.2](https://github.com/GonzaloHirsch/nuxt-blog-starter-ssr/compare/v1.0.1...v1.0.2) (2024-03-25)
 
 
